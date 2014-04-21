@@ -6,6 +6,7 @@
     Inspired by <a href="http://www.youtube.com/watch?v=HzQf_t_p4ns">this video</a>,
     this web application will turn almost any music into an electronic dance music,
     by adding drum beats and a synthesized bassline.
+    <em>Please use Google Chrome.</em>
   technologies:
     - Web Audio API
 - name: "voicetype"
@@ -14,7 +15,7 @@
   project: voicetype
   description: |
     A simple dictation utility. Now you can type with your voice on any OS.
-    Currently only works with Google Chrome.
+    <em>Currently only works with Google Chrome.</em>
   technologies:
     - Web Speech API
 - name: "Flashing Sign"
