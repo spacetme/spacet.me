@@ -1,4 +1,7 @@
 - name: "Instant Dancefloor"
+  date: 2014-04-21
+  url: http://dance.spacet.me/
+  project: dance
   description: |
     Inspired by <a href="http://www.youtube.com/watch?v=HzQf_t_p4ns">this video</a>,
     this web application will turn almost any music into an electronic dance music,
@@ -6,6 +9,7 @@
   technologies:
     - Web Audio API
 - name: "voicetype"
+  date: 2014-03-17
   url: http://voicetype.spacet.me/
   project: voicetype
   description: |
@@ -14,6 +18,7 @@
   technologies:
     - Web Speech API
 - name: "Flashing Sign"
+  date: 2014-02-10
   url: http://sign.spacet.me/
   project: sign
   description: |

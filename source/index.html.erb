@@ -37,9 +37,15 @@
         <h2><%= experiment.name %> <small>(coming soon)</small></h2>
       <% end %>
       <p><%= experiment.description %></p>
-      <ul class="technologies">
+      <ul class="items">
         <% experiment.technologies.each do |name| %>
           <li><a href="<%= data.technologies[name].url %>"><%= name %></a></li>
+        <% end %>
+        <% if experiment.project %>
+          <li><a href="https://github.com/spacetme/<%= experiment.project %>">&rarr; GitHub</a></li>
+        <% end %>
+        <% if experiment.date %>
+          <li class="date">Released: <%= experiment.date %></li>
         <% end %>
       </ul>
     </div>
