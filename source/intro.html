@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>spacet.me</title>
+  <link rel="stylesheet" href="css.css">
+  <script>void function() {
+    var style = ''
+    var scale = [0,5,4,3,2,1,2,3,4,5]
+    for (var i = 1; i <= 9; i ++) {
+      var tfa = 'translate3d(0,0,' + Math.pow(2,scale[i]) * 15 + 'px) rotateY(' + (i - 5) * -20 + 'deg)'
+      var tfb = 'translate3d(0,0,0px) rotateY(0deg) '
+      style += '@keyframes c' + i + ' { ' +
+        'from { opacity: 0; transform: ' + tfa + '; } ' +
+        'to   { opacity: 1; transform: ' + tfb + '; } }'
+      style += '@-webkit-keyframes c' + i + ' { ' +
+        'from { opacity: 0; -webkit-transform: ' + tfa + '; } ' +
+        'to   { opacity: 1; -webkit-transform: ' + tfb + '; } }'
+      style += '.c' + i + ' { ' +
+        'animation: c' + i + ' 2s; ' +
+        '-webkit-animation: c' + i + ' 2s; }'
+    }
+    document.write('<style>' + style + '<\/style>')
+  }()</script>
+</head>
+<body>
+
+  <div id="logo" class="logo"><span class="c1"
+    >s</span><span class="c2"
+    >p</span><span class="c3"
+    >a</span><span class="c4"
+    >c</span><span class="c5"
+    >e</span><span class="c6"
+    >t</span><span class="c7 dot"
+    >.</span><span class="c8"
+    >m</span><span class="c9"
+    >e</span></div>
+    
+
+</body>
+</html>
+

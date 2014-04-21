@@ -1,0 +1,29 @@
+- name: "Instant Dancefloor"
+  description: |
+    This web application will turn almost any music into an electronic dance music. 
+  technologies:
+    - Web Audio API
+- name: "voicetype"
+  url: http://voicetype.spacet.me/
+  project: voicetype
+  description: |
+    A simple dictation utility. Now you can type with your voice on any OS.
+    Currently only works with Google Chrome.
+  technologies:
+    - Web Speech API
+- name: "Flashing Sign"
+  url: http://sign.spacet.me/
+  project: sign
+  description: |
+    When you want attention from the crowd, use a flashing sign.
+    This utility will display a big, flashing sign on your screen.
+    Everyone will notice it.
+  technologies:
+    - Offline Web App
+- name: "BEAT☆MUSIC☆<wbr>SEQUENCE"
+  description: |
+    A web-based rhythm game, a BMS simulator, with full support for keysounds.
+    Playable both in desktop and mobile browsers.
+  technologies:
+    - Web Audio API
+

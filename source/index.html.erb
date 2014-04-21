@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>spacet.me Labs</title>
+<%= stylesheet_link_tag "css" %>
+<meta name="viewport" content="initial-scale=1">
+<body>
+
+<div id="deoverflower">
+<div id="everything">
+
+<div class="spacer"></div>
+
+<div class="perspective">
+  <div class="box">
+    <h1>Welcome to spacet<span class='the-dot'>.</span>me Labs</h1>
+  </div>
+</div>
+
+<div class="container">
+
+<div class="perspective">
+  <div class="box">
+    <p class="tagline">
+      At space.me Labs, we play with cutting-edge HTML5 technologies. Check out our experiments.
+    </p>
+  </div>
+</div>
+
+<% data.experiments.each do |experiment| %>
+
+<div class="perspective">
+  <div class="box">
+    <div class="experiment">
+      <% if experiment.url %>
+        <h2><a href="<%= experiment.url %>"><%= experiment.name %></a></h2>
+      <% else %>
+        <h2><%= experiment.name %> <small>(coming soon)</small></h2>
+      <% end %>
+      <p><%= experiment.description %></p>
+      <ul class="technologies">
+        <% experiment.technologies.each do |name| %>
+          <li><a href="<%= data.technologies[name].url %>"><%= name %></a></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<% end %>
+
+<div class="perspective">
+  <div class="box">
+    <div class="about">
+      <h2>About</h2>
+      <p>spacet<span class="the-dot">.</span>me Labs makes web applications
+      that utilizes cutting edge HTML5 technologies.
+      It contains one member, <a href="http://dt.in.th/">Thai Pangsakulyanont</a>.</p>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div class="spacer"></div>
+
+</div>
+</div>
+
+<%= javascript_include_tag 'perspective' %>
+
+</body>
+
