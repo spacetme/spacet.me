@@ -19,6 +19,11 @@ a:focus {
   outline-offset: -2px;
 }
 
+.the-dot {
+  position: relative;
+  top: -1.15ex;
+}
+
 #deoverflower {
   overflow: hidden;
 }
