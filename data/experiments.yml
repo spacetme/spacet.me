@@ -1,3 +1,15 @@
+- name: "random.spacet.me"
+  date: 2014-11-14
+  url: https://random.spacet.me/
+  projects: random
+  description: |
+    A natural language experiment.
+    This web application generates random text in Thai language, based on some corpus,
+    such as the entire lyrics of Bodyslam's song, or the Thai translation of
+    the Romance of the Three Kingdoms (I've never read it, by the way).
+  technologies:
+    - Web Workers
+
 - name: "notes.spacet.me"
   date: 2014-05-22
   url: https://notes.divshot.io/
@@ -5,9 +17,10 @@
   description: |
     An HTML 5 note taking application that saves to Dropbox.
   technologies: []
+
 - name: "Instant Dancefloor"
   date: 2014-04-21
-  url: http://dance.spacet.me/
+  url: https://dance.spacet.me/
   project: dance
   description: |
     Inspired by <a href="http://www.youtube.com/watch?v=HzQf_t_p4ns">this video</a>,
@@ -16,18 +29,20 @@
     <em>Please use Google Chrome.</em>
   technologies:
     - Web Audio API
+
 - name: "voicetype"
   date: 2014-03-17
-  url: http://voicetype.spacet.me/
+  url: https://voicetype.spacet.me/
   project: voicetype
   description: |
     A simple dictation utility. Now you can type with your voice on any OS.
     <em>Currently only works with Google Chrome.</em>
   technologies:
     - Web Speech API
+
 - name: "Flashing Sign"
   date: 2014-02-10
-  url: http://sign.spacet.me/
+  url: https://sign.spacet.me/
   project: sign
   description: |
     When you want attention from the crowd, use a flashing sign.
@@ -35,6 +50,7 @@
     Everyone will notice it.
   technologies:
     - Offline Web App
+
 - name: "BEAT☆MUSIC☆<wbr>SEQUENCE"
   description: |
     A web-based rhythm game, a BMS simulator, with full support for keysounds.

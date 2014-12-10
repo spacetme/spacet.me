@@ -2,5 +2,7 @@ Web Audio API:
   url: https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html
 Web Speech API:
   url: https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html
+Web Workers:
+  url: http://www.w3.org/TR/workers/
 Offline Web App:
   url: http://www.whatwg.org/specs/web-apps/current-work/multipage/offline.html
