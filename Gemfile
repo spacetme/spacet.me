@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem "middleman", "~>3.2.2"
+gem "middleman", "~> 3.3"
 gem "middleman-deploy"
 
 # For faster file watcher updates on Windows:
