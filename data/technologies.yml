@@ -6,3 +6,9 @@ Web Workers:
   url: http://www.w3.org/TR/workers/
 Offline Web App:
   url: http://www.whatwg.org/specs/web-apps/current-work/multipage/offline.html
+jspm.io:
+  url: http://jspm.io/
+ES6:
+  url: http://www.2ality.com/2014/08/es6-today.html
+React:
+  url: http://facebook.github.io/react/

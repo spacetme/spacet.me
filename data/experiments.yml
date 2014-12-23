@@ -1,3 +1,18 @@
+- name: "Carols in Harmony"
+  date: 2014-12-23
+  url: https://spacet.me/hymn
+  project: hymn
+  description: |
+    Just in time for Christmas.
+    Practice singing popular Christmas hymns in 4-part harmony using this web application.
+    It listens to your sound from the microphone and shows you whether you sang the correct note.
+    Works with Google Chrome and Firefox on desktop browsers.
+  technologies:
+    - Web Audio API
+    - jspm.io
+    - React
+    - ES6
+
 - name: "random.spacet.me"
   date: 2014-11-14
   url: https://random.spacet.me/
