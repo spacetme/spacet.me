@@ -28,7 +28,7 @@
   </div>
 </div>
 
-<% data.experiments.each do |experiment| %>
+<% data.experiments.reject(&:hidden).each do |experiment| %>
 
 <div class="perspective">
   <div class="box">
