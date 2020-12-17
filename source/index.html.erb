@@ -44,7 +44,7 @@
           <li><a href="<%= data.technologies[name].url %>"><%= name %></a></li>
         <% end %>
         <% if experiment.project %>
-          <li><a href="https://github.com/spacetme/<%= experiment.project %>">&rarr; GitHub</a></li>
+          <li><a href="https://github.com/<%= experiment.project %>">&rarr; GitHub</a></li>
         <% end %>
         <% if experiment.date %>
           <li class="date">Released: <%= experiment.date %></li>

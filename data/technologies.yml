@@ -4,6 +4,14 @@ Web Speech API:
   url: https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html
 Web Workers:
   url: http://www.w3.org/TR/workers/
+Web Clipboard API:
+  url: https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API
+WebRTC:
+  url: https://webrtc.org/
+Web MIDI API:
+  url: https://www.w3.org/TR/webmidi/
+Google APIs:
+  url: https://github.com/google/google-api-javascript-client
 Offline Web App:
   url: http://www.whatwg.org/specs/web-apps/current-work/multipage/offline.html
 jspm.io:
@@ -12,3 +20,9 @@ ES6:
   url: http://www.2ality.com/2014/08/es6-today.html
 React:
   url: http://facebook.github.io/react/
+Puppeteer:
+  url: https://pptr.dev/
+Vercel:
+  url: https://vercel.com/
+Vue.js:
+  url: https://vuejs.org/

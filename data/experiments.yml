@@ -1,8 +1,82 @@
+- name: "1hz.spacet.me"
+  date: 2020-12-14
+  url: https://1hz.spacet.me/
+  project: dtinth/1hz
+  description: |
+    Your computer speakers making buzzing sound? This little tool plays a quiet 1hz sine wave.
+    It is inaudible to human ear but may stop your speakers from picking up the mains hum.
+  technologies:
+    - Web Audio API
+
+- name: "capture.the.spacet.me"
+  date: 2020-11-04
+  url: https://capture.the.spacet.me/
+  project: dtinth/personal-puppeteer
+  description: |
+    A personal web page screenshotting service.
+    It exposes an API that I can use to generate screenshots of web pages.
+    By personal I mean only I can use it.
+    But it is open source, and you can run your own instance.
+  technologies:
+    - Puppeteer
+    - Vercel
+
+- name: "img.spacet.me"
+  date: 2020-04-08
+  url: https://img.spacet.me/
+  project: dtinth/img
+  description: |
+    Y’know, it’s 2020 and some services still don’t let you upload images, instead asking for an image URL.
+    This little web application lets you upload a file to Google Drive.
+    Once uploaded, the sharing settings will automatially be changed to “Anyone with the link can view,”
+    and a direct URL to the file is generated for you, ready for copying.
+  technologies:
+    - Google APIs
+
+- name: "tailwind.spacet.me"
+  date: 2020-04-05
+  url: https://tailwind.spacet.me/
+  project: dtinth/tailwind-search
+  description: |
+    Having trouble memorizing all the utility classes in Tailwind?
+    Remembered the CSS code, but did not remember which is the corresponding Tailwind CSS utility class?
+    Search for it here!
+  technologies:
+    - Vue.js
+
+- name: "vox.spacet.me"
+  date: 2020-01-18
+  url: https://vox.spacet.me/
+  project: dtinth/voice-recorder
+  description: |
+    A simple web-based voice recorder. This web app lets you record your voice and save it as an WAV file.
+  technologies:
+    - WebRTC
+
+- name: "json.spacet.me"
+  date: 2019-08-13
+  url: https://json.spacet.me/
+  project: dtinth/jsonviewer
+  description: |
+    Dead simple JSON viewer
+  technologies:
+    - Web Clipboard API
+
+- name: "midi-rtc.spacet.me"
+  date: 2019-07-19
+  url: https://midi-rtc.spacet.me/
+  project: dtinth/midi-rtc
+  description: |
+    Send and receive MIDI messages over WebRTC, powered by PeerJS.
+  technologies:
+    - WebRTC
+    - Web MIDI API
+
 - name: "Carols in Harmony"
   hidden: true # Dependencies have breaking change
   date: 2014-12-23
   url: https://spacet.me/hymn
-  project: hymn
+  project: spacetme/hymn
   description: |
     Just in time for Christmas.
     Practice singing popular Christmas hymns in 4-part harmony using this web application.
@@ -17,7 +91,7 @@
 - name: "random.spacet.me"
   date: 2014-11-14
   url: https://random.spacet.me/
-  projects: random
+  projects: spacetme/random
   description: |
     A natural language experiment.
     This web application generates random text in Thai language, based on some corpus,
@@ -26,11 +100,30 @@
   technologies:
     - Web Workers
 
+- name: "bpm.spacet.me"
+  date: 2014-06-07
+  url: https://bpm.spacet.me/
+  projects: dtinth/bpm
+  description: |
+    A simple web app to find out the tempo of a song (in BPM, beats-per-minute) by tapping to the beat.
+  technologies: []
+
+- name: "highlight.spacet.me"
+  date: 2014-06-02
+  url: https://highlight.spacet.me/
+  projects: spacetme/highlight
+  description: |
+    A quick and dirty tool that lets me add syntax-highlighted code to Google Docs.
+    Paste in your code, select a language and color theme, and copy out the highlighted code.
+    The copied data can be pasted into Google Docs.
+  technologies:
+    - Web Clipboard API
+
 - name: "notes.spacet.me"
   hidden: true # Divshot is gone
   date: 2014-05-22
   url: https://notes.divshot.io/
-  project: notes
+  project: spacetme/notes
   description: |
     An HTML 5 note taking application that saves to Dropbox.
   technologies: []
@@ -38,7 +131,7 @@
 - name: "Instant Dancefloor"
   date: 2014-04-21
   url: https://dance.spacet.me/
-  project: dance
+  project: spacetme/dance
   description: |
     Inspired by <a href="http://www.youtube.com/watch?v=HzQf_t_p4ns">this video</a>,
     this web application will turn almost any music into an electronic dance music,
@@ -50,7 +143,7 @@
 - name: "voicetype"
   date: 2014-03-17
   url: https://voicetype.spacet.me/
-  project: voicetype
+  project: spacetme/voicetype
   description: |
     A simple dictation utility. Now you can type with your voice on any OS.
     <em>Currently only works with Google Chrome.</em>
@@ -61,7 +154,7 @@
   date: 2014-02-10
   hidden: true # Divshot is gone
   url: https://sign.spacet.me/
-  project: sign
+  project: spacetme/sign
   description: |
     When you want attention from the crowd, use a flashing sign.
     This utility will display a big, flashing sign on your screen.
