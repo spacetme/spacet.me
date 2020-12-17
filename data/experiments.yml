@@ -91,7 +91,7 @@
 - name: "random.spacet.me"
   date: 2014-11-14
   url: https://random.spacet.me/
-  projects: spacetme/random
+  project: spacetme/random
   description: |
     A natural language experiment.
     This web application generates random text in Thai language, based on some corpus,
@@ -103,7 +103,7 @@
 - name: "bpm.spacet.me"
   date: 2014-06-07
   url: https://bpm.spacet.me/
-  projects: dtinth/bpm
+  project: dtinth/bpm
   description: |
     A simple web app to find out the tempo of a song (in BPM, beats-per-minute) by tapping to the beat.
   technologies: []
@@ -111,7 +111,7 @@
 - name: "highlight.spacet.me"
   date: 2014-06-02
   url: https://highlight.spacet.me/
-  projects: spacetme/highlight
+  project: spacetme/highlight
   description: |
     A quick and dirty tool that lets me add syntax-highlighted code to Google Docs.
     Paste in your code, select a language and color theme, and copy out the highlighted code.
