@@ -21,6 +21,8 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./build
+          external_repository: spacetme/spacetme.github.io
+          publish_branch: master
         env:
           GIT_COMMITTER_NAME: dtinth-bot
           GIT_AUTHOR_NAME: dtinth-bot
